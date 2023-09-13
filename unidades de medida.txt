@@ -1,0 +1,13 @@
+No CSS (Cascading Style Sheets), há várias unidades de medida que podem ser usadas para especificar o tamanho, comprimento ou distância de um elemento em uma página web. As principais diferenças entre elas são:
+
+Unidades absolutas: são medidas que não dependem do contexto ou tamanho do elemento pai. As unidades absolutas mais comuns são o "px" (pixel), que é a unidade de medida mais precisa e consistente em diferentes dispositivos, e o "in" (polegadas).
+
+Unidades relativas: são medidas que dependem do tamanho do elemento pai ou de outros elementos da página. As unidades relativas permitem criar layouts flexíveis e adaptáveis a diferentes dispositivos e tamanhos de tela. As unidades relativas mais comuns são:
+
+"em": é uma medida relativa ao tamanho da fonte do elemento pai. Por exemplo, se o tamanho da fonte do elemento pai for 16 pixels, 1em será igual a 16 pixels.
+"rem": é uma medida relativa ao tamanho da fonte do elemento raiz (normalmente o elemento <html>). Por exemplo, se o tamanho da fonte do elemento raiz for 16 pixels, 1rem será igual a 16 pixels.
+"%": é uma medida relativa ao tamanho do elemento pai. Por exemplo, se o elemento pai tiver 500 pixels de largura e um elemento interno tiver 50% de largura, ele terá 250 pixels de largura.
+Unidades de viewport: são medidas que se baseiam no tamanho da janela de visualização do dispositivo. As unidades de viewport mais comuns são:
+"vw": é uma medida relativa a 1% da largura da janela de visualização. Por exemplo, se a largura da janela de visualização for 1000 pixels, 1vw será igual a 10 pixels.
+"vh": é uma medida relativa a 1% da altura da janela de visualização. Por exemplo, se a altura da janela de visualização for 600 pixels, 1vh será igual a 6 pixels.
+"vmin" e "vmax": são medidas que se baseiam no menor ou maior valor entre a largura e a altura da janela de visualização. Por exemplo, se a largura da janela de visualização for 1000 pixels e a altura for 600 pixels, 1vmin será igual a 6 pixels e 1vmax será igual a 10 pixels.
